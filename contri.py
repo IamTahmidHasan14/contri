@@ -35,7 +35,7 @@ def main(def_args=sys.argv[1:]):
         run(['git', 'config', 'user.name', user_name])
 
     if user_email is not None:
-        run(['git', 'config', 'user.email', user_email])
+        run(['git', 'config', 'user.email', "tahmidahmad007@gmail.com"])
 
     start_date = curr_date.replace(hour=20, minute=0) - timedelta(days_before)
     for day in (start_date + timedelta(n) for n
